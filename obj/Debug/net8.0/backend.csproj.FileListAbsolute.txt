@@ -31,3 +31,4 @@
 /Users/Antonio/Documents/2 Areas/💻 IT /Backend/C#/backend/obj/Debug/net8.0/backend.pdb
 /Users/Antonio/Documents/2 Areas/💻 IT /Backend/C#/backend/obj/Debug/net8.0/backend.genruntimeconfig.cache
 /Users/Antonio/Documents/2 Areas/💻 IT /Backend/C#/backend/obj/Debug/net8.0/ref/backend.dll
+/Users/Antonio/Documents/2 Areas/💻 IT /Backend/C#/backend/obj/Debug/net8.0/backend.sourcelink.json
