@@ -1,13 +1,21 @@
+using Backend.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 
 
-namespace backend.Controllers
+namespace Backend.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class PeopleController : ControllerBase
     {
+        private IPeopleService _peopleService;
+
+        public PeopleController()
+        {
+            _peopleService = new PeopleService();
+        }
+
         [HttpGet("all")]
         public List<People> GetPeople() => Repository.People;
         [HttpGet("{id}")]
@@ -25,7 +33,7 @@ namespace backend.Controllers
         [HttpPost]
         public IActionResult Add(People people)
         {
-            if (string.IsNullOrEmpty(people.Name))
+            if (!_peopleService.Validate(people))
             {
                 return BadRequest();
             }
