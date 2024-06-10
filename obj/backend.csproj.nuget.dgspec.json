@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Antonio/Documents/2 Areas/💻 IT /Backend/C#/backend/backend.csproj": {}
+    "/Users/Antonio/Docs/2 Areas/IT/Backend/C#/api_rest_csharp/backend.csproj": {}
   },
   "projects": {
-    "/Users/Antonio/Documents/2 Areas/💻 IT /Backend/C#/backend/backend.csproj": {
+    "/Users/Antonio/Docs/2 Areas/IT/Backend/C#/api_rest_csharp/backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Antonio/Documents/2 Areas/💻 IT /Backend/C#/backend/backend.csproj",
+        "projectUniqueName": "/Users/Antonio/Docs/2 Areas/IT/Backend/C#/api_rest_csharp/backend.csproj",
         "projectName": "backend",
-        "projectPath": "/Users/Antonio/Documents/2 Areas/💻 IT /Backend/C#/backend/backend.csproj",
+        "projectPath": "/Users/Antonio/Docs/2 Areas/IT/Backend/C#/api_rest_csharp/backend.csproj",
         "packagesPath": "/Users/Antonio/.nuget/packages/",
-        "outputPath": "/Users/Antonio/Documents/2 Areas/💻 IT /Backend/C#/backend/obj/",
+        "outputPath": "/Users/Antonio/Docs/2 Areas/IT/Backend/C#/api_rest_csharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Antonio/.nuget/NuGet/NuGet.Config"
