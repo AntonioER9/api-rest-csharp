@@ -3,8 +3,8 @@ using Backend.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddSingleton<IPeopleService, PeopleService>();
-
+// builder.Services.AddSingleton<IPeopleService, PeopleService>();
+builder.Services.AddKeyedSingleton<IPeopleService, PeopleService>("peopleService");
 
 builder.Services.AddControllers();
 
