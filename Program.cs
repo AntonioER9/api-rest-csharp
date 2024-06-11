@@ -6,6 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 // builder.Services.AddSingleton<IPeopleService, PeopleService>();
 builder.Services.AddKeyedSingleton<IPeopleService, PeopleService>("peopleService");
 
+builder.Services.AddScoped<IPostService, PostService>();
+
 builder.Services.AddControllers();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
