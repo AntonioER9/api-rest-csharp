@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "K3sYvsgH4PA=",
+  "dgSpecHash": "jChIgqJUGYk=",
   "success": true,
   "projectFilePath": "/Users/Antonio/Docs/2 Areas/IT/Backend/C#/api_rest_csharp/backend.csproj",
   "expectedPackageFiles": [
     "/Users/Antonio/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/Antonio/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
+    "/Users/Antonio/.nuget/packages/fluentvalidation/11.9.2/fluentvalidation.11.9.2.nupkg.sha512",
     "/Users/Antonio/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/Antonio/.nuget/packages/microsoft.aspnetcore.openapi/8.0.5/microsoft.aspnetcore.openapi.8.0.5.nupkg.sha512",
     "/Users/Antonio/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
